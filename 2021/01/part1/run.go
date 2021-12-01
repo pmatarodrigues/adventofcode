@@ -15,7 +15,7 @@ func check(e error) {
 
 // read input file
 func readInputFile() string {
-	res, err := os.ReadFile("input.txt")
+	res, err := os.ReadFile("../input.txt")
 	check(err)
 
 	return string(res)
